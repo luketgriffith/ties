@@ -1,17 +1,38 @@
+body{
+  margin: 5px;
+}
+/*****************************top banner*****************/
 .banner{
   list-style: none;
-  background-color: orange;
+  background-color: #EC6634;
+  padding: 1px;
+  height: 45px;
+}
+.banner ul{
+  margin-left: 40px;
 }
 .banner li {
   display: inline-block;
-  padding: 20px;
+  padding: 5px;
+  color: white;
+  margin: 10px 0px 10px 40px;
+  border-radius: 4%;
+
+
 }
+.banner li:hover{
+  background-color: #C7542C;
+}
+/******************Logo and Selection**************/
 .logo1 {
   float: left;
   width: 150px;
+  margin-left: 40px;
+  margin-bottom: 35px;
 }
 
 .logosection ul{
+  margin-top: 30px;
   display: inline-block;
   list-style: none;
 
@@ -20,31 +41,37 @@
   display: inline-block;
   list-style: none;
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .logosection{
   border-bottom: 1px solid gray;
   overflow: auto;
 }
 /**************************Sign In/Cart*********************/
-
+/********Sign-in and Cart/Search function****/
 .signcart{
   float: right;
   width: 200px;
+  margin-right: 25px;
+  margin-top: -90px;
 }
 
-
+/*************sign-in/register only**********/
 .signin{
   display: inline-block;
   width: 100%;
+  margin-bottom: 2px;
+  margin-right: 25px;
 }
 .signin ul{
   display: inline;
 }
 .signin li{
   font-size: 12px;
+  padding: 2px;
 }
-.cartform{
+/******************cart and search only***************/
+.cartform {
   display: inline-block;
   width: 100%;
 }
@@ -52,9 +79,25 @@
   display: inline-block;
   list-style: none;
   padding: 0;
+  margin-top: 3px;
 }
 .cartform li{
+  font-size: 14px;
   display: inline-block;
+  padding: 2px;
+}
+.cart{
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px;
+  width: 35%;
+}
+.search {
+  width: 55%
+}
+
+  
+}
+form{
   width: 30px;
-  padding: 5px;
 }
