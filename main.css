@@ -14,13 +14,47 @@
 .logosection ul{
   display: inline-block;
   list-style: none;
+
 }
 .logosection li{
   display: inline-block;
   list-style: none;
   padding: 15px;
+  font-size: 20px;
 }
 .logosection{
   border-bottom: 1px solid gray;
   overflow: auto;
+}
+/**************************Sign In/Cart*********************/
+
+.signcart{
+  float: right;
+  width: 200px;
+}
+
+
+.signin{
+  display: inline-block;
+  width: 100%;
+}
+.signin ul{
+  display: inline;
+}
+.signin li{
+  font-size: 12px;
+}
+.cartform{
+  display: inline-block;
+  width: 100%;
+}
+.cartform ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+.cartform li{
+  display: inline-block;
+  width: 30px;
+  padding: 5px;
 }
