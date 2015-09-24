@@ -1,6 +1,8 @@
 
 .top {
   margin-bottom: 0px;
+  border: 5px solid gray;
+  border-image: url("img/perforated-bottom@2x.png") 0 500 repeat;
 }
 /*****************************top banner*****************/
 .banner{
