@@ -1,5 +1,6 @@
-body{
-  margin: 5px;
+
+.top {
+  margin-bottom: 0px;
 }
 /*****************************top banner*****************/
 .banner{
@@ -101,3 +102,88 @@ body{
 form{
   width: 30px;
 }
+/***************************Tie Gallery****************/
+.dressing {
+  background-color: #F4F4F4;
+  min-height: 500px;
+}
+
+.tiepics{
+  margin-left: 100px;
+  background-color: #F4F4F4;
+}
+
+.spot1{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot2{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+
+.spot3{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot4{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot5{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot6{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot7{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot8{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+.spot9{
+  float: left;
+  max-width: 8%;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #F4F4F4;
+}
+
+
+
+
+
+
+
+
+
+/***********************Dressing Up*********************/
