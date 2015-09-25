@@ -44,7 +44,7 @@
   padding: 15px;
   font-size: 30px;
 }
-.logosection{
+.logosection{ 
   height: 145px;
   overflow: auto;
 }
@@ -188,12 +188,50 @@ form{
   text-align: center;
   
 }
+/*********************Accessories********************/
+.access{
+  margin-top: 50px;
+}
+.accesspics{
+  margin-left: 200px;
+}
+.accesspics1{
+  height: 175px;
+  width: 300px;
+  display: inline-block;
+  background-image: url("img/bow-ties@1.5x.jpg");
+  background-size: 95%;
+  margin: 0 15px;
+  
+}
+.accesspics2{
+  height: 175px;
+  width: 300px;
+  display: inline-block;
+  background-image: url("img/pocket-squares@1.5x.jpg");
+  background-size: 95%;
+  margin: 0 15px;
+  
+}
+.accesspics2 h2{
+  line-height: 12px;
+  padding: 3px;
+}
+
+.accesspics3{
+  height: 175px;
+  width: 300px;
+  display: inline-block;
+  background-image: url("img/tie-bars@1.5x.jpg");
+  background-size: 90%;
+  margin: 0 15px;
+}
+.access h2{
+  padding: 0 8px;
+}
+
+.accesscap{
+  float: right;
+}
 
 
-
-
-
-
-
-
-/***********************Dressing Up*********************/
