@@ -265,6 +265,7 @@ border-image: url('img/hatch-light@2x.png') 78 3 repeat;
 .section{
   margin-left: 20px;
   padding: 0;
+  height: 400px;
 
 }
 .wp {
@@ -298,7 +299,15 @@ border-image: url('img/hatch-light@2x.png') 78 3 repeat;
   margin: 2.5%;
 }
 .quarter form{
+
   margin-bottom: 15px;
+  
+}
+.myform input{
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
 }
 button {
   color: white;
@@ -339,3 +348,99 @@ button {
   width: 35px;
   height: 35px;
 }
+/*************************footer*********************/
+.foot{
+  background-color: #F4F4F4;
+  height: 275px;
+  border-top: 15px solid transparent;
+-webkit-border-image: url('img/perforated-bottom@2x.png') 30 27 repeat;
+-webkit-o-image: url('img/perforated-bottom@2x.png') 30 27 repeat;
+border-image: url('img/perforated-bottom@2x.png') 30 27 repeat;
+}
+
+.shop{
+  float: left;
+  padding: 30px;
+}
+.about{
+  float: left;
+  padding: 30px;
+}
+.guide{
+  float: left;
+  padding: 30px;
+}
+.help{
+  float: left;
+  padding: 30px;
+}
+
+.foot ul{
+  list-style: none;
+  color: #888888;
+}
+.foot li{
+  padding: 2px;
+}
+.titles{
+  color: black;
+}
+
+
+/**********************Contact Box***********************/
+
+.contact{
+  float: right;
+  border: 1px solid #8995A6;
+  height: 150px;
+  width:350px;
+  background-color: #A2AFC0;
+  color: white;
+  margin: 50px 70px;
+  border-radius: 5%;
+  
+}
+.contact p{
+  margin: 2px;
+
+}
+.here{
+  text-align: center;
+}
+
+.emailnum{
+  margin:20px 1px;
+  float: left;
+  padding: 0 25px;
+
+}
+.contactus {
+  float: right;
+  border: 1px solid #2985DB;
+  background-color: #37A1FB;
+  color: #F9FCFF;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 9%;
+
+}
+.contactus p{
+  padding: 2px;
+  margin: 6px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
