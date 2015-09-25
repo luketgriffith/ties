@@ -6,17 +6,17 @@
 .banner{
   list-style: none;
   background-color: #EC6634;
-  padding: 1px;
+  padding: 15px 15px 5px 15px;
   height: 45px;
 }
 .banner ul{
-  margin-left: 40px;
+  margin-left: 50px;
 }
 .banner li {
   display: inline-block;
   padding: 5px;
   color: white;
-  margin: 5px 0px 5px 40px;
+  margin: 5px 0px 5px 80px;
   border-radius: 4%;
 
 
@@ -43,6 +43,7 @@
   list-style: none;
   padding: 15px;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 .logosection{ 
   height: 145px;
@@ -53,17 +54,18 @@
 /********Sign-in and Cart/Search function****/
 .signcart{
   float: right;
-  width: 200px;
-  margin-right: 25px;
-  margin-top: -110px;
+  width: 300px;
+  margin-right: 10px;
+  margin-top: -90px;
 }
 
 /*************sign-in/register only**********/
 .signin{
-  display: inline-block;
+  float: right;
   width: 100%;
   margin-bottom: 2px;
-  margin-right: 25px;
+  /*margin-right: 100px;*/
+  padding-right: 0px;
 }
 .signin ul{
   display: inline;
@@ -72,37 +74,81 @@
   font-size: 12px;
   padding: 2px;
 }
+.signcart{
+  margin-right: 60px;
+}
+.signin li{
+  float: right;
+  color: #949494;
+  padding: 2px;
+  margin: 2px;}
+
 /******************cart and search only***************/
+
 .cartform {
-  display: inline-block;
+  float: right;
   width: 100%;
+  margin-right: -13px;
+}
+
+.search input{
+    background-color:#FFF;
+    padding:5px;
+    box-shadow: 0 0 10px #000000;
+    display: inline-block;
 }
 .cartform ul {
   display: inline-block;
   list-style: none;
   padding: 0;
   margin-top: 3px;
+  width: 300px;
 }
 .cartform li{
   font-size: 14px;
   display: inline-block;
   padding: 2px;
 }
+
+
 .cart{
+  margin-top: -30px;
   text-align: center;
-  border: 1px solid black;
-  padding: 2px;
-  width: 35%;
+  border: 1px solid #E7E7E7;
+  padding: 0px;
+  width: 120px;
+  height: 20px;
+  position: relative;
+}
+.cart li{
+  vertical-align: middle;
 }
 .search {
   width: 55%
 }
+.signin{
+  float: right;
+  margin:0;
+}
 
-  
+.cartpic{
+    background: url('img/sprite@2x.png') no-repeat -45px -16px;
+  background-size: 400px 200px;
+  width: 16px;
+  height: 14px;
+  position: absolute;
+  top:4px;
+  left: 4px;
 }
-form{
-  width: 30px;
+.cart:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #88b7d5;
+  border-width: 30px;
+  margin-top: -30px;
 }
+
+
+
 /***************************Tie Gallery****************/
 .dressing {
   background-color: #F4F4F4;
