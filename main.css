@@ -1,8 +1,6 @@
 
 .top {
   margin-bottom: 0px;
-  border: 5px solid gray;
-  border-image: url("img/perforated-bottom@2x.png") 0 500 repeat;
 }
 /*****************************top banner*****************/
 .banner{
@@ -18,7 +16,7 @@
   display: inline-block;
   padding: 5px;
   color: white;
-  margin: 10px 0px 10px 40px;
+  margin: 5px 0px 5px 40px;
   border-radius: 4%;
 
 
@@ -31,7 +29,7 @@
   float: left;
   width: 150px;
   margin-left: 40px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 .logosection ul{
@@ -47,7 +45,7 @@
   font-size: 30px;
 }
 .logosection{
-  border-bottom: 1px solid gray;
+  height: 145px;
   overflow: auto;
 }
 /**************************Sign In/Cart*********************/
@@ -56,7 +54,7 @@
   float: right;
   width: 200px;
   margin-right: 25px;
-  margin-top: -90px;
+  margin-top: -110px;
 }
 
 /*************sign-in/register only**********/
@@ -107,7 +105,7 @@ form{
 /***************************Tie Gallery****************/
 .dressing {
   background-color: #F4F4F4;
-  min-height: 500px;
+  min-height: 320px;
 }
 
 .tiepics{
@@ -179,7 +177,17 @@ form{
   margin: 0 10px;
   background-color: #F4F4F4;
 }
-
+.divbetter{
+  background-color: #f4f4f4;
+  height: 400px;
+}
+.better{
+  clear: both;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  
+}
 
 
 
